@@ -12,8 +12,7 @@ with open(logDirectory+"/debug-info.txt", 'w') as file:
     file.write("[DEBUG] 2024-09-24 10:15:42 - Initializing application...\n")
 
 with open(logDirectory+"/error.log", 'w') as file:
-    file.write( '\x00\x01\x02\n\x03\x04\x05\n\x06\x07\x08\x09\n\x0a\x0b\x0c\x0d\n\x0e\x0f\x10\x11\n\x12\x13\x14\x15\n\x16\x17\x18\x19\n'
-)
+    file.write('\n'*12)
 
 # Specify the log file destination with assuming name
 logFile = logDirectory + "/wrapper.conf"
