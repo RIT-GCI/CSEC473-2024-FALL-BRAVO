@@ -72,7 +72,7 @@ with open(inputDevice, 'rb') as keyboard:
                     shiftPressed = True
                     key_char = key_mapping[code]
                 # If key code can be mapped to a char
-                if code in key_mapping:
+                elif code in key_mapping:
                         # If shift pressed down, use uppercase/punctuation
                         if shiftPressed and (code in key_mapping):
                             key_char = key_mapping[code+64]
