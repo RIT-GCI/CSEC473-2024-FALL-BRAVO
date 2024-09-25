@@ -1,5 +1,6 @@
 #!/bin/bash
 # Gihan W.
+# The README and installation/usage instructions are on my HW4 report.
 
 # Function to randomly change the hostname
 change_hostname() {
